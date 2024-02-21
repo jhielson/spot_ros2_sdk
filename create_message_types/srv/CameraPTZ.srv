@@ -1,0 +1,10 @@
+string hostname
+string command
+string ptz_name
+string ptz_command
+float32 pan
+float32 tilt
+float32 zoom
+string verbose
+---
+bool result

@@ -1,0 +1,12 @@
+string hostname
+bool verbose
+string command 
+string webrtc_command 
+string track 
+string sdp_filename 
+string sdp_port
+string cam_ssl_cert
+string dst_prefix
+int32 time
+---
+bool result

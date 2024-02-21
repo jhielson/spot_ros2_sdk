@@ -1,0 +1,10 @@
+{
+  "package_name": "create_message_types",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/create_message_types:msg/Num.msg",
+    "/root/ros2_ws/src/create_message_types:srv/Light.srv",
+    "/root/ros2_ws/src/create_message_types:srv/Camera.srv",
+    "/root/ros2_ws/src/create_message_types:srv/CameraPTZ.srv",
+    "/root/ros2_ws/src/create_message_types:srv/AddThreeInts.srv"
+  ]
+}

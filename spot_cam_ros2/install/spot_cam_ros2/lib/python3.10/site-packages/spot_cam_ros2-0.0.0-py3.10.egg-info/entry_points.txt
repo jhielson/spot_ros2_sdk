@@ -1,0 +1,4 @@
+[console_scripts]
+hello = spot_cam_ros2.example:main
+hello2 = spot_cam_ros2.example2:main
+

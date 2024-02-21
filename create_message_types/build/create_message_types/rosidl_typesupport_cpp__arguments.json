@@ -1,0 +1,25 @@
+{
+  "package_name": "create_message_types",
+  "output_dir": "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_typesupport_cpp/create_message_types",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:msg/Num.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/Light.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/Camera.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/CameraPTZ.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/AddThreeInts.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types/msg/Num.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types/srv/Light.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types/srv/Camera.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types/srv/CameraPTZ.idl",
+    "/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types/srv/AddThreeInts.idl"
+  ]
+}

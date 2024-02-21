@@ -1,0 +1,22 @@
+[0.428s] Invoking command in '/root/ros2_ws/src/spot_cam_ros2': PYTHONPATH=/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/prefix_override:/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spot_cam_ros2 build --build-base /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build install --record /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log --single-version-externally-managed
+[0.575s] running egg_info
+[0.576s] writing build/spot_cam_ros2/spot_cam_ros2.egg-info/PKG-INFO
+[0.576s] writing dependency_links to build/spot_cam_ros2/spot_cam_ros2.egg-info/dependency_links.txt
+[0.576s] writing entry points to build/spot_cam_ros2/spot_cam_ros2.egg-info/entry_points.txt
+[0.576s] writing requirements to build/spot_cam_ros2/spot_cam_ros2.egg-info/requires.txt
+[0.576s] writing top-level names to build/spot_cam_ros2/spot_cam_ros2.egg-info/top_level.txt
+[0.577s] reading manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+[0.578s] writing manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+[0.578s] running build
+[0.578s] running build_py
+[0.578s] running install
+[0.578s] running install_lib
+[0.579s] running install_data
+[0.580s] running install_egg_info
+[0.581s] removing '/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.581s] Copying build/spot_cam_ros2/spot_cam_ros2.egg-info to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2-0.0.0-py3.10.egg-info
+[0.581s] running install_scripts
+[0.594s] Installing hello script to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/spot_cam_ros2
+[0.594s] Installing hello2 script to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/spot_cam_ros2
+[0.594s] writing list of installed files to '/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log'
+[0.608s] Invoked command in '/root/ros2_ws/src/spot_cam_ros2' returned '0': PYTHONPATH=/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/prefix_override:/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spot_cam_ros2 build --build-base /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build install --record /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log --single-version-externally-managed

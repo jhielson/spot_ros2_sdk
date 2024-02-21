@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from create_message_types/srv/Camera.srv
+// generated code does not contain a copyright notice
+
+
+module create_message_types {
+  module srv {
+    struct Camera_Request {
+      string camera_name;
+
+      string command;
+
+      string hostname;
+
+      string media_log_command;
+
+      string verbose;
+    };
+    struct Camera_Response {
+      boolean result;
+    };
+  };
+};

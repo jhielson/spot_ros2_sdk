@@ -1,0 +1,5 @@
+/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:msg/Num.idl
+/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/Light.idl
+/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/Camera.idl
+/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/CameraPTZ.idl
+/root/ros2_ws/src/create_message_types/build/create_message_types/rosidl_adapter/create_message_types:srv/AddThreeInts.idl

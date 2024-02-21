@@ -1,0 +1,10 @@
+float32 brightnesses_01 
+float32 brightnesses_02
+float32 brightnesses_03
+float32 brightnesses_04
+string command
+string hostname
+string lighting_command
+string verbose
+---
+bool result

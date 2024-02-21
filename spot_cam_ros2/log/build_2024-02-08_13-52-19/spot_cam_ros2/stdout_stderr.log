@@ -1,0 +1,33 @@
+running egg_info
+creating build/spot_cam_ros2/spot_cam_ros2.egg-info
+writing build/spot_cam_ros2/spot_cam_ros2.egg-info/PKG-INFO
+writing dependency_links to build/spot_cam_ros2/spot_cam_ros2.egg-info/dependency_links.txt
+writing entry points to build/spot_cam_ros2/spot_cam_ros2.egg-info/entry_points.txt
+writing requirements to build/spot_cam_ros2/spot_cam_ros2.egg-info/requires.txt
+writing top-level names to build/spot_cam_ros2/spot_cam_ros2.egg-info/top_level.txt
+writing manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+reading manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+writing manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build
+creating /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib
+creating /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+copying spot_cam_ros2/__init__.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/__init__.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/share/ament_index
+creating /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/share/ament_index/resource_index
+creating /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/share/ament_index/resource_index/packages
+copying resource/spot_cam_ros2 -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/share/spot_cam_ros2
+running install_egg_info
+Copying build/spot_cam_ros2/spot_cam_ros2.egg-info to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log'

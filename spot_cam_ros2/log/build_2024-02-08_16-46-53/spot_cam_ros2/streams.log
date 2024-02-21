@@ -1,0 +1,72 @@
+[0.427s] Invoking command in '/root/ros2_ws/src/spot_cam_ros2': PYTHONPATH=/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/prefix_override:/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spot_cam_ros2 build --build-base /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build install --record /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log --single-version-externally-managed
+[0.575s] running egg_info
+[0.575s] writing build/spot_cam_ros2/spot_cam_ros2.egg-info/PKG-INFO
+[0.575s] writing dependency_links to build/spot_cam_ros2/spot_cam_ros2.egg-info/dependency_links.txt
+[0.575s] writing entry points to build/spot_cam_ros2/spot_cam_ros2.egg-info/entry_points.txt
+[0.575s] writing requirements to build/spot_cam_ros2/spot_cam_ros2.egg-info/requires.txt
+[0.575s] writing top-level names to build/spot_cam_ros2/spot_cam_ros2.egg-info/top_level.txt
+[0.577s] reading manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+[0.585s] writing manifest file 'build/spot_cam_ros2/spot_cam_ros2.egg-info/SOURCES.txt'
+[0.585s] running build
+[0.585s] running build_py
+[0.585s] copying spot_cam_ros2/example2.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.585s] copying spot_cam_ros2/webrtc.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.585s] copying spot_cam_ros2/command_line.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.585s] copying spot_cam_ros2/media_log.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.585s] copying spot_cam_ros2/health.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/version.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/ptz.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/webrtc_client.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/compositor.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/example.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/utils.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/power.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/streamquality.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/lighting.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/audio.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.586s] copying spot_cam_ros2/network.py -> /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2
+[0.587s] running install
+[0.587s] /usr/local/lib/python3.10/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.587s]   warnings.warn(
+[0.587s] running install_lib
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/example2.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/webrtc.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/command_line.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/media_log.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/health.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/version.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/ptz.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.588s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/webrtc_client.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/compositor.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/example.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/utils.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/power.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/streamquality.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/lighting.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/audio.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.589s] copying /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build/lib/spot_cam_ros2/network.py -> /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2
+[0.590s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/example2.py to example2.cpython-310.pyc
+[0.590s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/webrtc.py to webrtc.cpython-310.pyc
+[0.591s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/command_line.py to command_line.cpython-310.pyc
+[0.592s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/media_log.py to media_log.cpython-310.pyc
+[0.593s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/health.py to health.cpython-310.pyc
+[0.594s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/version.py to version.cpython-310.pyc
+[0.594s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/ptz.py to ptz.cpython-310.pyc
+[0.595s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/webrtc_client.py to webrtc_client.cpython-310.pyc
+[0.595s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/compositor.py to compositor.cpython-310.pyc
+[0.596s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/example.py to example.cpython-310.pyc
+[0.596s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/utils.py to utils.cpython-310.pyc
+[0.596s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/power.py to power.cpython-310.pyc
+[0.597s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/streamquality.py to streamquality.cpython-310.pyc
+[0.597s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/lighting.py to lighting.cpython-310.pyc
+[0.597s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/audio.py to audio.cpython-310.pyc
+[0.598s] byte-compiling /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2/network.py to network.cpython-310.pyc
+[0.598s] running install_data
+[0.599s] running install_egg_info
+[0.600s] removing '/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.600s] Copying build/spot_cam_ros2/spot_cam_ros2.egg-info to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages/spot_cam_ros2-0.0.0-py3.10.egg-info
+[0.600s] running install_scripts
+[0.614s] Installing hello script to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/spot_cam_ros2
+[0.614s] Installing hello2 script to /root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/spot_cam_ros2
+[0.614s] writing list of installed files to '/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log'
+[0.628s] Invoked command in '/root/ros2_ws/src/spot_cam_ros2' returned '0': PYTHONPATH=/root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/prefix_override:/root/ros2_ws/src/spot_cam_ros2/install/spot_cam_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/spot_cam_ros2 build --build-base /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/build install --record /root/ros2_ws/src/spot_cam_ros2/build/spot_cam_ros2/install.log --single-version-externally-managed
