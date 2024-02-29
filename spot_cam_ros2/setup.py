@@ -22,9 +22,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'hello=spot_cam_ros2.example:main',
             'srv=spot_cam_ros2.example_srv:main',
-            'command=spot_cam_ros2.command_line:main'
+            'command=spot_cam_ros2.command_line:main',
+            'commandImageRecord=spot_cam_ros2.command_image_record:main',
+            'commandImageSave=spot_cam_ros2.command_image_save:main'
         ],
     },
 )

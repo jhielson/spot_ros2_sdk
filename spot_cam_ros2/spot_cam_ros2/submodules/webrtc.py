@@ -167,7 +167,6 @@ async def process_frame(client, options, shutdown_flag):
     while asyncio.get_event_loop().is_running():
         try:
             frame = await client.video_frame_queue.get()
-
             if options.count == 0:
                 pil_image = frame.to_image()
                 cv_image = np.array(pil_image)

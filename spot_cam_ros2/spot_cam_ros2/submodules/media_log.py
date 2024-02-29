@@ -167,7 +167,7 @@ class MediaLogRetrieveCommand(Command):
     def save_logpoint_as_image(robot, lp, options, dst_filename=None):
         """'options' need to have boolean arguments save-as-rgb24 and stitching."""
         if options.stitching and not options.raw_ir:
-            print(lp)
+            #print(lp)
             lp, img = robot.ensure_client(MediaLogClient.default_service_name).retrieve(lp)
         else:
             lp, img = robot.ensure_client(MediaLogClient.default_service_name).retrieve_raw_data(lp)

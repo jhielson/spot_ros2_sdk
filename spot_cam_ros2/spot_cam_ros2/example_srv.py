@@ -1,3 +1,4 @@
+import os.path
 import rclpy, random
 from rclpy.node import Node
 from std_msgs.msg import String
@@ -6,11 +7,8 @@ from create_message_types.srv import Light, Camera, CameraPTZ, Compositor, Audio
 class WrapperExample(Node):
 
     def __init__(self):
-        super().__init__('my_node')
+        super().__init__('Example_SRV')
 
-        # Pub
-        self.publisher_ = self.create_publisher(String, 'command_light_spot', 10)
-        
         # Srv
         self.client_light = self.create_client(Light,'light')
         while not self.client_light.wait_for_service(timeout_sec=1.0):
@@ -22,7 +20,7 @@ class WrapperExample(Node):
             self.get_logger().info('Sevice Camera_ptz is not available, waiting again ...')
         self.req_camera_ptz = CameraPTZ.Request()
 
-        self.client_camera = self.create_client(Camera,'camera')
+        self.client_camera = self.create_client(Camera,'camera_save')
         while not self.client_camera.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Sevice Camera is not available, waiting again ...')
         self.req_camera = Camera.Request()
@@ -59,16 +57,16 @@ class WrapperExample(Node):
         self.busy_webrtc = 0
         self.busy_compositor = 0
 
-    def send_webrtc_request(self, time):
+    def send_webrtc_request(self, time, command):
         self.req_webrtc.hostname = "192.168.80.3" 
         self.req_webrtc.command = "webrtc"
         self.req_webrtc.time = time
-        self.req_webrtc.dst_prefix = './src/spot_cam_ros2/images/video'
+        self.req_webrtc.dst_prefix = '/root/ros2_ws/src/spot_cam_ros2/images/video' 
         self.req_webrtc.sdp_port = '31102'
         self.req_webrtc.cam_ssl_cert = "None"
         self.req_webrtc.sdp_filename = 'h264.sdp'
         self.req_webrtc.track = 'video'
-        self.req_webrtc.webrtc_command = "record"
+        self.req_webrtc.webrtc_command = command
         self.req_webrtc.verbose = False
         print("Send a webrtc request")
         self.future_webrtc = self.client_webrtc.call_async(self.req_webrtc)
@@ -111,12 +109,13 @@ class WrapperExample(Node):
         self.req_camera.command = "media_log"
         self.req_camera.media_log_command = "store_retrieve"
         self.req_camera.camera_name = name
-        self.req_camera.verbose = True
-        self.req_camera.dst = "./src/spot_cam_ros2/images/image"
+        self.req_camera.verbose = False
+        self.req_camera.dst = "/root/ros2_ws/src/spot_cam_ros2/images/image" 
         self.req_camera.save_as_rgb24 = False
         self.req_camera.stitching = True
         self.req_camera.raw_ir = False
         print("Send a camera request")
+        print(self.req_camera)
         self.future_camera = self.client_camera.call_async(self.req_camera)
 
     def send_compositor_request(self, name):
@@ -161,7 +160,7 @@ class WrapperExample(Node):
             self.send_camera_ptz_request(self.pan,self.tilt,self.zoom)
 
         # Camera
-        if self.i%18 == 0  and self.busy_camera == 0:
+        if self.i%20 == 0  and self.busy_camera == 0:
             self.busy_camera = 1
             self.send_camera_request("c0") # choose from 'c0', 'c1', 'c2', 'c3', 'ir', 'pano', 'ptz', 'ptz-ir', 'ptz-ir-color', 'ptz-ir-overlay'
 
@@ -172,9 +171,9 @@ class WrapperExample(Node):
             self.send_compositor_request(random.sample(rand_compositor,1)[0]) 
 
         # Record video
-        if self.i%2000 == 0 and  self.busy_webrtc == 0:
+        if self.i%25 == 0 and  self.busy_webrtc == 0:
             self.busy_webrtc = 1
-            self.send_webrtc_request(5)
+            self.send_webrtc_request(5, "record")
 
         # Audio
         if self.i%23 == 0 and  self.busy_audio == 0:

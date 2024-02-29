@@ -87,11 +87,8 @@ class AdapterVLP16(Node):
         aggregate_data = collections.deque(maxlen=5)
         while True:
             self.points = []
-            #print(".............................................................")
-            #print(point_cloud_task.proto)
             if _point_cloud_task.proto[0].point_cloud:
                 data = np.fromstring(_point_cloud_task.proto[0].point_cloud.data, dtype=np.float32)
-                #print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
                 aggregate_data.append(data)
                 plot_data = np.concatenate(aggregate_data)
                 #print((plot_data[0::3]))
@@ -101,13 +98,9 @@ class AdapterVLP16(Node):
                     pt = [plot_data[i*3], plot_data[i*3+1], plot_data[i*3+2]]
                     self.points.append(pt)
                 
-            #print("@@@@@@@@@@@@@@@@@@@@@@@@@")
-            #print(self.points) 
             self.data = np.array(self.points)
             dtype = np.float32            
             data = self.data.astype(dtype).tobytes() 
-
-            #x = PointField('x', 0, PointField.FLOAT32, 1)
 
             x = PointField()
             x.name = "x"
@@ -142,11 +135,9 @@ class AdapterVLP16(Node):
             )
 
             self.pub_pointCloud.publish(msg)
-            #print("Message:")
-            #print(msg)
             
 
-def main(argv):
+def main():
     # SDK
     sdk = bosdyn.client.create_standard_sdk('VelodyneClient')
     robot = sdk.create_robot("192.168.80.3")
@@ -180,5 +171,5 @@ def main(argv):
     rclpy.shutdown()
  
 if __name__ == '__main__':
-    if not main(sys.argv[1:]):
+    if not main():
         sys.exit(1)
