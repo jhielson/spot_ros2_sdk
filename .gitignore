@@ -1,0 +1,14 @@
+# Media Files
+#############
+*.jpg
+*.mp4
+
+# Log files
+############
+*.log
+
+
+# Python Cache
+############
+*.pyc
+
