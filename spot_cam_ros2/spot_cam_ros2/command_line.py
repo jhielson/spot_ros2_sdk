@@ -59,12 +59,13 @@ class CommandWrapper(Node):
         # Run
         result = self.run(options)
 
-        #print(result)
-
         print("= Audio: Done")
 
         # Return
-        response.result = True
+        if result == None:
+            response.result = False
+        else:
+            response.result = True
 
         return response
 
@@ -82,12 +83,13 @@ class CommandWrapper(Node):
         # Run
         result = self.run(options)
  
-        #print(result)
-
         print("= Compositor: Done")
 
         # Return
-        response.result = True
+        if result == None:
+            response.result = False
+        else:
+            response.result = True
 
         return response
 
@@ -107,13 +109,14 @@ class CommandWrapper(Node):
 
         # Run
         result = self.run(options)
- 
-        #print(result)
 
         print("= Camera PTZ: Done")
 
         # Return
-        response.result = True
+        if result == None:
+            response.result = False
+        else:
+            response.result = True
 
         return response
 
@@ -131,12 +134,13 @@ class CommandWrapper(Node):
         # Run
         result = self.run(options)
  
-        #print(result)
-
         print("= Light: Done")
 
         # Return
-        response.result = True
+        if result == True:
+            response.result = result
+        else:
+            response.result = False
 
         return response
 

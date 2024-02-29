@@ -153,7 +153,7 @@ class WrapperExample(Node):
             self.send_light_request(led_01, led_02, led_03, led_04)
 
         # Camera PTZ
-        if self.i%5 == 0 and  self.busy_cameraPTZ == 0:
+        if self.i%3 == 0 and  self.busy_cameraPTZ == 0:
             self.busy_cameraPTZ = 1
             self.tilt = random.uniform(-20.0,80.0)
             self.pan  = random.uniform(10.0,370.0)
