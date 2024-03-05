@@ -141,7 +141,7 @@ class WrapperExample(Node):
         print("...........")
          
         # Light
-        if self.i%5 == 0:
+        if self.i%10 == 0:
             led_01 = random.uniform(0,0.5)
             led_02 = random.uniform(0,0.5)
             led_03 = random.uniform(0,0.5)
