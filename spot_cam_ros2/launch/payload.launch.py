@@ -15,7 +15,7 @@ def generate_launch_description():
         ),
         Node(
             package='spot_cam_ros2',
-            executable='commad',
+            executable='command',
             name='commands',
         ),
         Node(
