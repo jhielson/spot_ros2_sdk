@@ -1,4 +1,4 @@
-# SPOT: robot + payload : ROS2 
+# SPOT: robot + payload 
 
 # Work in progress
 
