@@ -1,3 +1,5 @@
+import os  
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'spot_cam_ros2'
@@ -9,6 +11,7 @@ setup(
     packages=[package_name,submodules],
     #packages=find_packages(exclude=['test']),
     data_files=[
+        (os.path.join('share', package_name), glob('launch/*.launch.py'))),
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
