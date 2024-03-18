@@ -41,7 +41,7 @@ class AsyncPointCloud(AsyncPeriodicQuery):
 
     def __init__(self, robot_state_client):
         super(AsyncPointCloud, self).__init__('point_clouds', robot_state_client, LOGGER,
-                                              period_sec=0.2)
+                                              period_sec=0.001)
 
     def _start_query(self):
         return self._client.get_point_cloud_from_sources_async(['velodyne-point-cloud'])
@@ -63,7 +63,7 @@ class AdapterVLP16(Node):
         self.get_logger().info("This node works between velodyne vlp16 and PointCloud2")
         
         # ROS - publisher
-        self.pub_pointCloud = self.create_publisher(PointCloud2, "point_cloud2", 2)
+        self.pub_pointCloud = self.create_publisher(PointCloud2, "point_cloud2", 10)
         self.points = []
     
     def run(self, robot):
