@@ -22,5 +22,10 @@ def generate_launch_description():
             package='spot_cam_ros2',
             executable='srv',
             name='example_payload_demo',
-        ) 
+        ),
+        Node(
+            package='spot_velodyne_ros2',
+            executable='velodyne_node',
+            name='velodyne'
+        )
     ])
