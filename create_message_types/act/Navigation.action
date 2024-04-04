@@ -1,9 +1,12 @@
-int32 x
-int32 y
+#GOAL
+float32 x
+float32 y
 float32 yaw
 ---
-bool result
+#RESULT
+bool success
 ---
-int32 x
-int32 y
+#FEEDBACK
+float32 x
+float32 y
 float32 yaw
