@@ -1,0 +1,9 @@
+int32 x
+int32 y
+float32 yaw
+---
+bool result
+---
+int32 x
+int32 y
+float32 yaw
