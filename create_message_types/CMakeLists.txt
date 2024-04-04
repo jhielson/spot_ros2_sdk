@@ -18,6 +18,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Compositor.srv"
   "srv/Audio.srv"
   "srv/Webrtc.srv"
+  "act/Navigation.action"
  )
 
 # uncomment the following section in order to fill in
