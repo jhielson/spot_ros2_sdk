@@ -1,0 +1,15 @@
+int32 x
+int32 y
+float32 yaw
+<<<<<<< HEAD
+---
+bool result
+---
+=======
+--
+bool result
+--
+>>>>>>> 58d442615151b096f49336315b1ac3a14f729aaf
+int32 x
+int32 y
+float32 yaw

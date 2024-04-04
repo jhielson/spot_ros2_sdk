@@ -2,6 +2,10 @@ string camera_name
 string command
 string hostname
 string media_log_command
-string verbose
+bool verbose
+string dst
+bool save_as_rgb24 
+bool stitching
+bool raw_ir
 ---
 bool result

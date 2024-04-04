@@ -5,6 +5,9 @@
     "/root/ros2_ws/src/create_message_types:srv/Light.srv",
     "/root/ros2_ws/src/create_message_types:srv/Camera.srv",
     "/root/ros2_ws/src/create_message_types:srv/CameraPTZ.srv",
-    "/root/ros2_ws/src/create_message_types:srv/AddThreeInts.srv"
+    "/root/ros2_ws/src/create_message_types:srv/Compositor.srv",
+    "/root/ros2_ws/src/create_message_types:srv/Audio.srv",
+    "/root/ros2_ws/src/create_message_types:srv/Webrtc.srv",
+    "/root/ros2_ws/src/create_message_types:act/Navigation.action"
   ]
 }

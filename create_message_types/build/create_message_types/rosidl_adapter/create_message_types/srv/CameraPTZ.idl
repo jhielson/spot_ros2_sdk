@@ -6,13 +6,19 @@
 module create_message_types {
   module srv {
     struct CameraPTZ_Request {
-      string camera_name;
+      string hostname;
 
       string command;
 
-      string hostname;
+      string ptz_name;
 
-      string media_log_command;
+      string ptz_command;
+
+      float pan;
+
+      float tilt;
+
+      float zoom;
 
       string verbose;
     };

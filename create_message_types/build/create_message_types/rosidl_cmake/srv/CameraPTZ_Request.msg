@@ -1,5 +1,0 @@
-string camera_name
-string command
-string hostname
-string media_log_command
-string verbose

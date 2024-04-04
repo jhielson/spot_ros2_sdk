@@ -1,0 +1,7 @@
+string hostname 
+bool verbose
+string command
+string audio_command
+int32 percentage
+---
+bool result

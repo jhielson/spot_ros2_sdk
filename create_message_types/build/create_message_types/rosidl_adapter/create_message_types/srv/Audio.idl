@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from create_message_types/srv/Audio.srv
+// generated code does not contain a copyright notice
+
+
+module create_message_types {
+  module srv {
+    struct Audio_Request {
+      string hostname;
+
+      boolean verbose;
+
+      string command;
+
+      string audio_command;
+
+      int32 percentage;
+    };
+    struct Audio_Response {
+      boolean result;
+    };
+  };
+};

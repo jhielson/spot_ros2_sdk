@@ -14,7 +14,15 @@ module create_message_types {
 
       string media_log_command;
 
-      string verbose;
+      boolean verbose;
+
+      string dst;
+
+      boolean save_as_rgb24;
+
+      boolean stitching;
+
+      boolean raw_ir;
     };
     struct Camera_Response {
       boolean result;

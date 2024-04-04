@@ -1,6 +1,0 @@
-setup.py
-create_message_types/__init__.py
-create_message_types.egg-info/PKG-INFO
-create_message_types.egg-info/SOURCES.txt
-create_message_types.egg-info/dependency_links.txt
-create_message_types.egg-info/top_level.txt

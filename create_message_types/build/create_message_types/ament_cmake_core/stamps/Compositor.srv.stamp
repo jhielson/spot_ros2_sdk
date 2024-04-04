@@ -1,0 +1,7 @@
+string hostname
+bool verbose
+string command
+string compositor_command
+string name
+---
+bool result

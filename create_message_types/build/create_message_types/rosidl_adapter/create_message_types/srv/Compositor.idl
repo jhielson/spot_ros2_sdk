@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from create_message_types/srv/Compositor.srv
+// generated code does not contain a copyright notice
+
+
+module create_message_types {
+  module srv {
+    struct Compositor_Request {
+      string hostname;
+
+      boolean verbose;
+
+      string command;
+
+      string compositor_command;
+
+      string name;
+    };
+    struct Compositor_Response {
+      boolean result;
+    };
+  };
+};
